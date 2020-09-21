@@ -1,0 +1,142 @@
+{
+    "ShipmentRequest": {
+        "ShipmentRequestDetails": {
+            "AmazonOrderId": "string",
+            "SellerOrderId": "string",
+            "ItemList": [
+                {
+                    "OrderItemId": "string",
+                    "Quantity": 0,
+                    "ItemWeight": {
+                        "Value": 0,
+                        "Unit": "oz"
+                    },
+                    "ItemDescription": "string",
+                    "TransparencyCodeList": [
+                        "string"
+                    ],
+                    "ItemLevelSellerInputsList": [
+                        {
+                            "AdditionalInputFieldName": "string",
+                            "AdditionalSellerInput": {
+                                "DataType": "string",
+                                "ValueAsString": "string",
+                                "ValueAsBoolean": true,
+                                "ValueAsInteger": 0,
+                                "ValueAsTimestamp": "2019-08-24T14:15:22Z",
+                                "ValueAsAddress": {
+                                    "Name": "string",
+                                    "AddressLine1": "string",
+                                    "AddressLine2": "string",
+                                    "AddressLine3": "string",
+                                    "DistrictOrCounty": "string",
+                                    "Email": "string",
+                                    "City": "string",
+                                    "StateOrProvinceCode": "string",
+                                    "PostalCode": "string",
+                                    "CountryCode": "string",
+                                    "Phone": "string"
+                                },
+                                "ValueAsWeight": {
+                                    "Value": 0,
+                                    "Unit": "oz"
+                                },
+                                "ValueAsDimension": {
+                                    "value": 0,
+                                    "unit": "inches"
+                                },
+                                "ValueAsCurrency": {
+                                    "CurrencyCode": "str",
+                                    "Amount": 0
+                                }
+                            }
+                        }
+                    ]
+                }
+            ],
+            "ShipFromAddress": {
+                "Name": "string",
+                "AddressLine1": "string",
+                "AddressLine2": "string",
+                "AddressLine3": "string",
+                "DistrictOrCounty": "string",
+                "Email": "string",
+                "City": "string",
+                "StateOrProvinceCode": "string",
+                "PostalCode": "string",
+                "CountryCode": "string",
+                "Phone": "string"
+            },
+            "PackageDimensions": {
+                "Length": 0,
+                "Width": 0,
+                "Height": 0,
+                "Unit": "inches",
+                "PredefinedPackageDimensions": "FedEx_Box_10kg"
+            },
+            "Weight": {
+                "Value": 0,
+                "Unit": "oz"
+            },
+            "MustArriveByDate": "2019-08-24T14:15:22Z",
+            "ShipDate": "2019-08-24T14:15:22Z",
+            "ShippingServiceOptions": {
+                "DeliveryExperience": "DeliveryConfirmationWithAdultSignature",
+                "DeclaredValue": {
+                    "CurrencyCode": "str",
+                    "Amount": 0
+                },
+                "CarrierWillPickUp": true,
+                "CarrierWillPickUpOption": "CarrierWillPickUp",
+                "LabelFormat": "PDF"
+            },
+            "LabelCustomization": {
+                "CustomTextForLabel": "string",
+                "StandardIdForLabel": "AmazonOrderId"
+            }
+        },
+        "ShippingServiceId": "string",
+        "ShippingServiceOfferId": "string",
+        "HazmatType": "None",
+        "LabelFormatOption": {
+            "IncludePackingSlipWithLabel": true
+        },
+        "ShipmentLevelSellerInputsList": [
+            {
+                "AdditionalInputFieldName": "string",
+                "AdditionalSellerInput": {
+                    "DataType": "string",
+                    "ValueAsString": "string",
+                    "ValueAsBoolean": true,
+                    "ValueAsInteger": 0,
+                    "ValueAsTimestamp": "2019-08-24T14:15:22Z",
+                    "ValueAsAddress": {
+                        "Name": "string",
+                        "AddressLine1": "string",
+                        "AddressLine2": "string",
+                        "AddressLine3": "string",
+                        "DistrictOrCounty": "string",
+                        "Email": "string",
+                        "City": "string",
+                        "StateOrProvinceCode": "string",
+                        "PostalCode": "string",
+                        "CountryCode": "string",
+                        "Phone": "string"
+                    },
+                    "ValueAsWeight": {
+                        "Value": 0,
+                        "Unit": "oz"
+                    },
+                    "ValueAsDimension": {
+                        "value": 0,
+                        "unit": "inches"
+                    },
+                    "ValueAsCurrency": {
+                        "CurrencyCode": "str",
+                        "Amount": 0
+                    }
+                }
+            }
+        ]
+    }
+}

@@ -1,0 +1,3 @@
+-f https://git.io/purplship
+
+-e .[dev]
