@@ -29,7 +29,7 @@ setup(
     description="Freightcom purplship extension",
     long_description=long_description,
     long_description_content_type="text/markdown",
-    url="https://github.com/PurplShip/purplship-freightcom-extension",
+    url="https://github.com/PurplShip/purplship-extension/tree/main/src/freightcom",
     license="LGPLv3",
     packages=find_namespace_packages(exclude=["tests*"]),
     install_requires=[
